@@ -52,7 +52,7 @@ public class App {
         Set<Integer> keys = integerOccurenceMap.keySet( );
         boolean hasCoupleWithSum = false;
         for (Integer key : keys) {
-            Integer numberToFind = 42 - key;
+            Integer numberToFind = COUPLE_SUM - key;
             if (integerOccurenceMap.containsKey( numberToFind )) {
                 //If 21 exists more than 1 time only then we will have two numbers (21,21)
                 if (key.equals( numberToFind )) {
