@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Hello world!
+ * Find Couple of Numbers Adding SUM to N!
  */
 public class App {
     private static final Integer COUPLE_SUM = 42;
